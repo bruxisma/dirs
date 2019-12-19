@@ -7,7 +7,7 @@
 ![Code style: black][style]
 
 `dirs` is a small python library in the spirit of appdirs[1] and other XDG
-focused directory libraries. However, it solves a few problems that I've
+focused directory libraries. However, there are several that I've
 identified with these other libraries:
 
 1. Overengineered solutions to get a few simple paths
@@ -24,7 +24,8 @@ identified with these other libraries:
 `dirs` tries to solve all of this by using `ctypes` under Windows for initial
 calls, `functools.lru_cache` for an alternative API, lazy generation of
 `config_dirs` and `data_dirs` on all platforms, and many others. Proper
-documentation will be uploaded at some point.
+documentation will be uploaded at some point, but the code is fairly readable
+and easy to understand.
 
 ## Example Use
 

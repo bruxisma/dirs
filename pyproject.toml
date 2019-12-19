@@ -2,6 +2,8 @@
 name = "dirs"
 version = "0.1.0"
 description = "A small library for obtaining platform dependent directory paths for application and user directories"
+readme = "README.md"
+repository = "https://github.com/slurps-mad-rips/dirs"
 authors = ["Isabella Muerte <63051+slurps-mad-rips@users.noreply.github.com>"]
 license = "MIT"
 keywords = ["application", "directory", "xdg", ]
@@ -25,7 +27,7 @@ line-length = 100
 python = "^3.7"
 
 [tool.poetry.dev-dependencies]
-black = { version = "^19.3b0", allows-prereleases = true }
+black = { version = "^19.3b0", allow-prereleases = true }
 pytest-runner = "^5.1"
 pytest-cov = "^2.7"
 pytest = "^3.0"
